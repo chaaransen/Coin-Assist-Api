@@ -14,11 +14,11 @@ const apiPayload = {
 			"api": "https://api.coinmarketcap.com/v1/ticker/?convert=INR&limit=",
 			"coin_limit": "8",
 			"coin": {
-				"BTC": "https://api.coinmarketcap.com/v1/ticker/bitcoin",
-				"ETH": "https://api.coinmarketcap.com/v1/ticker/ethereum",
-				"XPR": "https://api.coinmarketcap.com/v1/ticker/ripple",
-				"BCH": "https://api.coinmarketcap.com/v1/ticker/bitcoin-cash",
-				"LTC": "https://api.coinmarketcap.com/v1/ticker/litecoin"
+				"BTC": "https://api.coinmarketcap.com/v1/ticker/bitcoin/?convert=INR",
+				"ETH": "https://api.coinmarketcap.com/v1/ticker/ethereum/?convert=INR",
+				"XPR": "https://api.coinmarketcap.com/v1/ticker/ripple/?convert=INR",
+				"BCH": "https://api.coinmarketcap.com/v1/ticker/bitcoin-cash/?convert=INR",
+				"LTC": "https://api.coinmarketcap.com/v1/ticker/litecoin/?convert=INR"
 			}
 		}
 	},
@@ -28,5 +28,5 @@ const apiPayload = {
 app.get('/apis', (req, res) => res.send(apiPayload))
 app.set("port", process.env.PORT || 3000);
 app.listen(app.get("port"), function () {
-  console.log("listening to Port", app.get("port"));
+	console.log("listening to Port", app.get("port"));
 });
