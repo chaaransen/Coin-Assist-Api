@@ -3,8 +3,20 @@ const app = express()
 
 const apiPayload = {
 	"exchange": {
-		"koinex": "https://koinex.in/api/ticker",
-		"zebpay": "https://www.zebapi.com/api/v1/market/ticker/btc/inr"
+		"koinex": {
+			"api": "https://koinex.in/api/ticker",
+			"fees": {
+				"buy": "0.25",
+				"sell": "0.2"
+			}
+		},
+		"zebpay": {
+			"api": "https://www.zebapi.com/api/v1/market/ticker/btc/inr",
+			"fees": {
+				"buy": "0.2",
+				"sell": "0.2"
+			}
+		}
 	},
 	"global": {
 		"coindesk": {
@@ -24,21 +36,23 @@ const apiPayload = {
 	},
 	"version": "1.0.0"
 }
-var morgan = require('morgan');            
-var bodyParser = require('body-parser');    
+var morgan = require('morgan');
+var bodyParser = require('body-parser');
 var cors = require('cors');
 
-app.use(morgan('dev'));                                        
-app.use(bodyParser.urlencoded({'extended':'true'}));            
-app.use(bodyParser.json());                                     
+app.use(morgan('dev'));
+app.use(bodyParser.urlencoded({
+	'extended': 'true'
+}));
+app.use(bodyParser.json());
 app.use(cors());
 
-app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header('Access-Control-Allow-Methods', 'DELETE, PUT');
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    next();
-  });
+app.use(function (req, res, next) {
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header('Access-Control-Allow-Methods', 'DELETE, PUT');
+	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+	next();
+});
 
 
 app.get('/apis', (req, res) => res.send(apiPayload))
