@@ -6,15 +6,15 @@ const apiPayload = {
 		"koinex": {
 			"api": "https://koinex.in/api/ticker",
 			"fees": {
-				"buy": "0.25",
-				"sell": "0.2"
+				"buy": "0.0025",
+				"sell": "0.002"
 			}
 		},
 		"zebpay": {
 			"api": "https://www.zebapi.com/api/v1/market/ticker/btc/inr",
 			"fees": {
-				"buy": "0.2",
-				"sell": "0.2"
+				"buy": "0.002",
+				"sell": "0.002"
 			}
 		}
 	},
