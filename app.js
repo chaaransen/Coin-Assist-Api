@@ -8,14 +8,16 @@ const apiPayload = {
 			"fees": {
 				"buy": "0.0025",
 				"sell": "0.002"
-			}
+			},
+			"referral": "https://koinex.in/?ref=a2fae6"
 		},
 		"zebpay": {
 			"api": "https://www.zebapi.com/api/v1/market/ticker/btc/inr",
 			"fees": {
 				"buy": "0.002",
-				"sell": "0.002"
-			}
+				"sell": "0.002",
+			},
+			"referral": "http://link.zebpay.com/ref/REF97131420"
 		}
 	},
 	"global": {
