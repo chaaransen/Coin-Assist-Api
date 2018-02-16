@@ -17,7 +17,8 @@ const apiPayload = {
 				"buy": "0.0059",
 				"sell": "0.0059",
 			},
-			"referral": "http://link.zebpay.com/ref/REF97131420"
+			"referral": "http://link.zebpay.com/ref/REF97131420",
+			"coinList": ["btc","ltc","xpr","bch"]
 		}
 	},
 	"global": {
