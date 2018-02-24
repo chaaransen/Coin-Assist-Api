@@ -10,7 +10,7 @@ const apiPayload = {
 				"sell": "0.002"
 			},
 			"referral": "https://koinex.in/?ref=a2fae6",
-			"coinList": ["btc","ltc","xpr","bch","eth"]
+			"coinList": ["btc","ltc","xrp","bch","eth"]
 		},
 		"zebpay": {
 			"api": "https://www.zebapi.com/api/v1/market/ticker-new/",
@@ -19,7 +19,7 @@ const apiPayload = {
 				"sell": "0.0059",
 			},
 			"referral": "http://link.zebpay.com/ref/REF97131420",
-			"coinList": ["btc","ltc","xpr","bch","eth"]
+			"coinList": ["btc","ltc","xrp","bch","eth"]
 		}
 	},
 	"global": {
@@ -32,7 +32,7 @@ const apiPayload = {
 			"coin": {
 				"BTC": "https://api.coinmarketcap.com/v1/ticker/bitcoin/?convert=INR",
 				"ETH": "https://api.coinmarketcap.com/v1/ticker/ethereum/?convert=INR",
-				"XPR": "https://api.coinmarketcap.com/v1/ticker/ripple/?convert=INR",
+				"XRP": "https://api.coinmarketcap.com/v1/ticker/ripple/?convert=INR",
 				"BCH": "https://api.coinmarketcap.com/v1/ticker/bitcoin-cash/?convert=INR",
 				"LTC": "https://api.coinmarketcap.com/v1/ticker/litecoin/?convert=INR"
 			}
