@@ -9,7 +9,8 @@ const apiPayload = {
 				"buy": "0.0025",
 				"sell": "0.002"
 			},
-			"referral": "https://koinex.in/?ref=a2fae6"
+			"referral": "https://koinex.in/?ref=a2fae6",
+			"coinList": ["btc","ltc","xpr","bch","eth"]
 		},
 		"zebpay": {
 			"api": "https://www.zebapi.com/api/v1/market/ticker-new/",
@@ -18,7 +19,7 @@ const apiPayload = {
 				"sell": "0.0059",
 			},
 			"referral": "http://link.zebpay.com/ref/REF97131420",
-			"coinList": ["btc","ltc","xpr","bch"]
+			"coinList": ["btc","ltc","xpr","bch","eth"]
 		}
 	},
 	"global": {
