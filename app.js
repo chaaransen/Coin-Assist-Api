@@ -10,7 +10,7 @@ const apiPayload = {
 				"sell": "0.002"
 			},
 			"referral": "https://koinex.in/?ref=a2fae6",
-			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "omg", "req", "zrx", "gnt", "bat", "ae"]
+			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "omg", "req", "zrx", "gnt", "bat", "ae", "trx"]
 		},
 		"zebpay": {
 			"api": "https://www.zebapi.com/api/v1/market/ticker-new/",
