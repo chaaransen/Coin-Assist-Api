@@ -30,6 +30,84 @@ const apiPayload = {
 			"api": "https://api.coinmarketcap.com/v1/ticker/COINNAME/?convert=INR",
 		}
 	},
+	"coins": {
+		"BTC": {
+			"name": "Bitcoin",
+			"imageUrl": "https://i.imgur.com/PRysm7E.png"
+		},
+		"XRP": {
+			"name": "Ripple",
+			"imageUrl": "https://i.imgur.com/jzCyWct.png"
+		},
+		"ETH": {
+			"name": "Ethereum",
+			"imageUrl": "https://i.imgur.com/gmGSzVJ.png"
+		},
+		"LTC": {
+			"name": "Litecoin",
+			"imageUrl": "https://i.imgur.com/Ov9h1ZT.png"
+		},
+		"BCH": {
+			"name": "Bitcoin Cash",
+			"imageUrl": "https://i.imgur.com/gUtu5Eo.png"
+		},
+		"OMG": {
+			"name": "OmiseGo",
+			"imageUrl": "https://i.imgur.com/p0Phr0Y.png"
+		},
+		"REQ": {
+			"name": "Request Network",
+			"imageUrl": "https://i.imgur.com/6909idR.png"
+		},
+		"ZRX": {
+			"name": "0x",
+			"imageUrl": "https://i.imgur.com/ESIyWUE.png"
+		},
+		"GNT": {
+			"name": "Golem",
+			"imageUrl": "https://i.imgur.com/5ryFDz5.png"
+		},
+		"BAT": {
+			"name": "Basic Attention Token",
+			"imageUrl": "https://i.imgur.com/c5ADvNs.png"
+		},
+		"AE": {
+			"name": "Aeternity",
+			"imageUrl": "https://i.imgur.com/Hn4v2q1.png"
+		},
+		"TRX": {
+			"name": "Tron",
+			"imageUrl": "https://i.imgur.com/A39UF1i.png"
+		},
+		"MIOTA": {
+			"name": "IOTA",
+			"imageUrl": "https://i.imgur.com/u5slvez.png"
+		},
+		"EOS": {
+			"name": "Eos",
+			"imageUrl": "https://i.imgur.com/8MPSsON.png"
+		},
+		"KNC": {
+			"name": "Kyber Network",
+			"imageUrl": "https://i.imgur.com/hn2onbS.png"
+		},
+		"NANO": {
+			"name": "Nano",
+			"imageUrl": "https://i.imgur.com/tp5wt6g.png"
+		},
+		"XLM": {
+			"name": "Stellar",
+			"imageUrl": "https://i.imgur.com/7sbDVmq.png"
+		},
+		"GAS": {
+			"name": "Gas",
+			"imageUrl": "https://i.imgur.com/KuKbCfk.png"
+		},
+		"NEO": {
+			"name": "Neo",
+			"imageUrl": "https://i.imgur.com/KuKbCfk.png"
+		}
+	},
 	"version": "1.0.0"
 }
 var morgan = require('morgan');
