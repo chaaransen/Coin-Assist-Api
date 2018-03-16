@@ -3,16 +3,16 @@ const app = express()
 
 const apiPayload = {
 	"exchange": {
-		"koinex": {
+		"Koinex": {
 			"api": "https://koinex.in/api/ticker",
 			"fees": {
 				"buy": "0.0025",
 				"sell": "0.002"
 			},
 			"referral": "https://koinex.in/?ref=a2fae6",
-			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "omg", "req", "zrx", "gnt", "bat", "ae", "trx","xlm","neo","gas"]
+			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "omg", "req", "zrx", "gnt", "bat", "ae", "trx", "xlm", "neo", "gas"]
 		},
-		"zebpay": {
+		"Zebpay": {
 			"api": "https://www.zebapi.com/api/v1/market/ticker-new/",
 			"fees": {
 				"buy": "0.0059",
