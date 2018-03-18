@@ -10,7 +10,7 @@ const apiPayload = {
 				"sell": "0.002"
 			},
 			"referral": "https://koinex.in/?ref=a2fae6",
-			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "omg", "req", "zrx", "gnt", "bat", "ae", "trx", "xlm", "neo", "gas"]
+			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "omg", "req", "zrx", "gnt", "bat", "ae", "trx", "xlm", "neo", "gas", "aion", "ncash"]
 		},
 		"Zebpay": {
 			"api": "https://www.zebapi.com/api/v1/market/ticker-new/",
@@ -106,6 +106,14 @@ const apiPayload = {
 		"NEO": {
 			"name": "Neo",
 			"imageUrl": "https://i.imgur.com/KuKbCfk.png"
+		},
+		"AION": {
+			"name": "Aion",
+			"imageUrl": "https://i.imgur.com/7BPKN5h.png"
+		},
+		"NCASH": {
+			"name": "Nucleus Vision",
+			"imageUrl": "https://i.imgur.com/BNMkOVY.jpg"
 		}
 	},
 	"version": "1.0.0"
