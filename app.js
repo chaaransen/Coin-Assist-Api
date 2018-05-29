@@ -19,7 +19,7 @@ const apiPayload = {
 				"sell": "0.0059",
 			},
 			"referral": "http://link.zebpay.com/ref/REF97131420",
-			"coinList": ["btc", "ltc", "xrp", "bch", "eth"]
+			"coinList": ["btc", "ltc", "xrp", "bch", "eth","eos","omg","trx","gnt","zrx","rep","bat","ven","ae"]
 		}
 	},
 	"global": {
@@ -138,6 +138,14 @@ const apiPayload = {
 		"ELF": {
 			"name": "Aelf",
 			"imageUrl": "https://i.imgur.com/1ZLtWEM.png"
+		},
+		"REP": {
+			"name": "augur",
+			"imageUrl": "https://i.imgur.com/l5OcnMf.png"
+		},
+		"VEN": {
+			"name": "vechain",
+			"imageUrl": "https://i.imgur.com/6Iq92BR.png"
 		}
 
 	},
