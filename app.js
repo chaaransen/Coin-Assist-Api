@@ -10,7 +10,7 @@ const apiPayload = {
 				"sell": "0.002"
 			},
 			"referral": "https://koinex.in/?ref=a2fae6",
-			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "omg", "req", "zrx", "gnt", "bat", "ae", "trx", "xlm", "neo", "gas", "aion", "ncash"]
+			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "omg", "req", "zrx", "gnt", "bat", "ae", "trx", "xlm", "neo", "gas", "aion", "ncash", "xrb", "eos", "ont", "zil", "iost", "zco", "poly", "elf"]
 		},
 		"Zebpay": {
 			"api": "https://www.zebapi.com/api/v1/market/ticker-new/",
@@ -91,7 +91,7 @@ const apiPayload = {
 			"name": "Kyber Network",
 			"imageUrl": "https://i.imgur.com/hn2onbS.png"
 		},
-		"NANO": {
+		"XRB": {
 			"name": "Nano",
 			"imageUrl": "https://i.imgur.com/tp5wt6g.png"
 		},
@@ -114,7 +114,32 @@ const apiPayload = {
 		"NCASH": {
 			"name": "Nucleus Vision",
 			"imageUrl": "https://i.imgur.com/BNMkOVY.jpg"
+		},
+		"ONT": {
+			"name": "Ontology",
+			"imageUrl": "https://i.imgur.com/sAmdk8w.png"
+		},
+		"ZIL": {
+			"name": "Zilliqa",
+			"imageUrl": "https://i.imgur.com/wMERZVq.png"
+		},
+		"IOST": {
+			"name": "IosToken",
+			"imageUrl": "https://i.imgur.com/39N3aWl.png"
+		},
+		"ZCO": {
+			"name": "Zebi",
+			"imageUrl": "https://i.imgur.com/fRgfUci.png"
+		},
+		"POLY": {
+			"name": "Polymath network",
+			"imageUrl": "https://i.imgur.com/65T4QnL.png"
+		},
+		"ELF": {
+			"name": "Aelf",
+			"imageUrl": "https://i.imgur.com/1ZLtWEM.png"
 		}
+
 	},
 	"version": "1.0.0"
 }
