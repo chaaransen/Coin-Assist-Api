@@ -148,7 +148,7 @@ const apiPayload = {
 			"imageUrl": "https://i.imgur.com/6Iq92BR.png"
 		},
 		"CMT": {
-			"name": "cybermiles",
+			"name": "Cybermiles",
 			"imageUrl": "https://i.imgur.com/57CI8rz.png"
 		},
 		"ACT": {
@@ -166,11 +166,13 @@ const apiPayload = {
 		"XZC": {
 			"name": "ZCoin",
 			"imageUrl": "https://i.imgur.com/73un4OT.png"
-		},
-		"": {
-			"name": "",
-			"imageUrl": ""
 		}
+
+		// ,
+		// "": {
+		// 	"name": "",
+		// 	"imageUrl": ""
+		// }
 	},
 	"version": "1.0.0"
 }
