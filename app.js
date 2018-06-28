@@ -10,7 +10,7 @@ const apiPayload = {
 				"sell": "0.002"
 			},
 			"referral": "https://koinex.in/?ref=a2fae6",
-			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "omg", "req", "zrx", "gnt", "bat", "ae", "trx", "xlm", "neo", "gas", "aion", "ncash", "xrb", "eos", "ont", "zil", "iost", "zco", "poly", "elf"]
+			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "omg", "req", "zrx", "gnt", "bat", "ae", "trx", "xlm", "neo", "gas", "aion", "ncash", "xrb", "eos", "ont", "zil", "iost", "zco", "poly", "elf", "cmt", "act", "snt", "rep", "qkc", "xzc"]
 		},
 		"Zebpay": {
 			"api": "https://www.zebapi.com/api/v1/market/ticker-new/",
@@ -19,7 +19,7 @@ const apiPayload = {
 				"sell": "0.0059",
 			},
 			"referral": "http://link.zebpay.com/ref/REF97131420",
-			"coinList": ["btc", "ltc", "xrp", "bch", "eth","eos","omg","trx","gnt","zrx","rep","bat","ven","ae"]
+			"coinList": ["btc", "ltc", "xrp", "bch", "eth", "eos", "omg", "trx", "gnt", "zrx", "rep", "bat", "ven", "ae", "knc", "iost", "zil", "cmt", "ncash"]
 		}
 	},
 	"global": {
@@ -140,14 +140,37 @@ const apiPayload = {
 			"imageUrl": "https://i.imgur.com/1ZLtWEM.png"
 		},
 		"REP": {
-			"name": "augur",
+			"name": "Augur",
 			"imageUrl": "https://i.imgur.com/l5OcnMf.png"
 		},
 		"VEN": {
-			"name": "vechain",
+			"name": "Vechain",
 			"imageUrl": "https://i.imgur.com/6Iq92BR.png"
+		},
+		"CMT": {
+			"name": "cybermiles",
+			"imageUrl": "https://i.imgur.com/57CI8rz.png"
+		},
+		"ACT": {
+			"name": "Achain",
+			"imageUrl": "https://i.imgur.com/fWQFCwz.png"
+		},
+		"SNT": {
+			"name": "Status",
+			"imageUrl": "https://i.imgur.com/CNX3XOT.png"
+		},
+		"QKC": {
+			"name": "QuarkChain",
+			"imageUrl": "https://i.imgur.com/Mf6rQ9A.png"
+		},
+		"XZC": {
+			"name": "ZCoin",
+			"imageUrl": "https://i.imgur.com/73un4OT.png"
+		},
+		"": {
+			"name": "",
+			"imageUrl": ""
 		}
-
 	},
 	"version": "1.0.0"
 }
